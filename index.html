@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YANKI</title>
+  <script src="https://kit.fontawesome.com/d83954f7da.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <div class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header__burger-list">
+        <div class="container header__burger-wrapper">
+          <li><a href="payment.html">оплата и доставка</a></li>
+          <li><a href="refund.html">условия возврата</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </div>
+      </ul>
+      <div class="header__burger-phone phone">
+        <div class="header__burger-wrapper">
+          <div class="header__burger-search">
+            <input type="text" placeholder="Введите ваш запрос">
+            <img src="img/header/search.svg" alt="">
+          </div>
+          <select name="">
+            <option value="">RUB</option>
+            <option value="">USD</option>
+            <option value="">EUR</option>
+          </select>
+        </div>
+        <div class="header__burger-menu">
+          <li><a href=" catalog.php"><img src="img/header/user.svg" alt=""> Личный кабинет</a></li>
+          <li><a href=" catalog.php">NEW</a></li>
+          <li><a href="catalog.php">каталог</a></li>
+          <li><a href="contacts.html">о нас</a></li>
+          <li><a href="refund.html">условия возврата</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </div>
+        <div class="header__burger-footer">
+          <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://web.telegram.org/z/"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <li><a href="tel:79807295449">+38(073) 096 36 44</a></li>
+        <li><a href="mailto:info@yanki.com">info@yanki.com</a></li>
+      </div>
+      <ul class="header__nav">
+        <li><a href="catalog.php">NEW</a></li>
+        <li><a href="catalog.php">каталог</a></li>
+        <li><a href="contacts.html">о нас</a></li>
+      </ul>
+      <div class="header__logo">
+        <img src="img/header/YANKI.svg" alt="">
+      </div>
+      <div class="header__select">
+        <select name="" id="select1">
+          <option value="">RU</option>
+          <option value="">GE</option>
+          <option value="">EN</option>
+        </select>
+        <select name="" id="select2">
+          <option value="">RUB</option>
+          <option value="">USD</option>
+          <option value="">EUR</option>
+        </select>
+      </div>
+      <div class="header__actions">
+        <img src="img/header/search.svg" alt="">
+        <img src="img/header/user.svg" alt="">
+        <img src="img/header/fav.svg" alt="">
+        <img src="img/header/cart.svg" alt="">
+      </div>
+    </div>
+  </header>
+  <section class="new">
+    <h2 class="new__title">Новая коллекция</h2>
+    <div class="new__divider"></div>
+    <a class="new__catalog" href="catalog.php">Смотреть новинки <span>&#10095;</span></a>
+  </section>
+  <section class="categories">
+    <div class="container">
+      <div class="categories__title title">Категории</div>
+      <div class="categories__slider">
+
+        <div class="categories__cards">
+          <button class="prev button" onclick="plusSlide(-1)">&#10094;</button>
+          <button class="next button" onclick="plusSlide(1)">&#10095;</button>
+          <div class="categories__card card">
+            <img src="img/categories/coat.jpg" alt="">
+            <div class="card__text">Куртки</div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/palot.jpg" alt="">
+            <div class="card__text">Пальто</div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/shuba.jpg" alt="">
+            <div class="card__text">Шубы</div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/park.jpg" alt="">
+            <div class="card__text">Парки</div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/shuba.jpg" alt="">
+            <div class="card__text">Шубы 1 </div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/park.jpg" alt="">
+            <div class="card__text">Парки 1 </div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/shuba.jpg" alt="">
+            <div class="card__text">Шубы 2 </div>
+          </div>
+          <div class="categories__card card">
+            <img src="img/categories/park.jpg" alt="">
+            <div class="card__text">Парки 2 </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="sub">
+    <div class="container sub__wrapper">
+      <div class="sub__title title">Узнайте первым о новинках</div>
+      <input type="text" class="sub__email" placeholder="Ваш e-mail" required>
+      <button class="button">Подписаться</button>
+      <div class="sub__text">
+        Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и
+        ознакомлен(а) с условиями конфиденциальности.
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__wrapper">
+      <div class="footer__block">
+        <span>КОМПАНИЯ</span>
+        <div>
+          <li><a href="contacts.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </div>
+      </div>
+      <div class="footer__block">
+        <span>ПОЛЕЗНОЕ</span>
+        <div>
+          <li><a href="payment.html">Оплата и доставка</a></li>
+          <li><a href="refund.html">Условия возврата</a></li>
+          <li><a href="payment.html">Бонусная система</a></li>
+        </div>
+
+      </div>
+      <div class="footer__block">
+        <span>ПОКУПАТЕЛЮ</span>
+        <div>
+          <li><a href="#">Избранное</a></li>
+          <li><a href="#">Публичная оферта</a></li>
+          <li><a href="#">Политика конфиденциальности</a></li>
+        </div>
+      </div>
+      <div class="footer__block">
+        <span>КОНТАКТЫ</span>
+        <div class="footer__socials">
+          <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://web.telegram.org/z/"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <li><a href="tel:79807295449">+38(073) 096 36 44</a></li>
+        <li><a href="mailto:info@yanki.com">info@yanki.com</a></li>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+
+</html>
